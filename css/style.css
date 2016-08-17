@@ -1,0 +1,618 @@
+/* CSS
+Author: GILLAN E SOLUTIONS
+Created: 07-01-2015
+*/
+
+/*
+-------------------------------------------------------------- 
+BROWSER SPECIFICATION STYLES
+-------------------------------------------------------------- 
+*/ 
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+}
+a:hover {
+	text-decoration: underline;
+	transition: all 0.4s ease-in-out;
+}
+table {
+	margin-bottom:15px;
+}
+h1 {
+  	font-family: 'OpenSans-Light';
+	font-size:30px;
+	color:#fff;
+	font-weight:normal;
+	margin-bottom: 20px;
+}
+h2 {
+  	font-family: 'OpenSans';
+	font-size:36px;
+	color:#333333;
+	font-weight:normal;
+	margin-bottom: 25px;
+}
+h3 {
+  	font-family: 'OpenSans';
+	font-size:28px;
+	color:#666666;
+	font-weight:normal;
+	margin-bottom: 20px;
+}
+h4 {
+  	font-family: 'OpenSans';
+	font-size: 22px;
+	color: #000;
+	font-weight: normal;
+}
+h4 a {
+	color: #000;
+}
+h5 {
+  	font-family: 'OpenSans';
+	font-size: 18px;
+	color: #3e3e3e;
+	line-height:normal;
+	margin-bottom: 15px;
+}
+p{
+ color:#FFF;
+ padding:10px;
+}
+/*
+-------------------------------------------------------------- 
+GLOBAL STYLES
+-------------------------------------------------------------- 
+*/
+.alignleft {
+	float: left;
+	margin: 0px 15px 15px 0px;
+}
+.alignleft .img-post {
+	margin-bottom:0px;
+}
+.alignright {
+	float: right;
+	margin: 0px 0px 15px 15px;
+}
+.alignright .img-post {
+	margin-bottom:0px;
+}
+.padding-top40 {
+	padding-top:40px;
+}
+/*
+-------------------------------------------------------------- 
+HEADER STYLE
+-------------------------------------------------------------- 
+*/
+header{
+ float:left;
+ width:100%;
+}
+.header-area{
+  background-color:#fff;
+  width:100%;
+  padding-top:10px;
+  min-height:50px;
+}
+.header-right{
+  width:100%;
+}
+.logo {
+	float:left;
+}
+.form{
+  float:left;
+  height:55px;
+}
+.login-form {
+  float:left;
+  position:absolute;
+  display:none;
+  background:#999;
+  width:200px;
+  height:220px;
+  min-height:150px;
+  border-radius:5px;
+  z-index:10000;
+}
+.register-form {
+  float:left;
+  position:absolute;
+  display:none;
+  z-index:10000;
+  background:#999;
+  width:200px;
+  height:220px;
+  min-height:150px;
+  border-radius:5px;
+}
+.login-tab{
+  float:left;
+}
+.login-tab h3{
+  padding:10px 10px 15px 30px;
+  margin:0px;
+  cursor:pointer;
+}
+
+.login-tab:hover .login-form{
+  display:block;
+  position:absolute;
+}
+.login-tab:hover .register-form{
+  display:block;
+}
+form{
+ padding:15px;
+}
+input{
+	width:100%;
+}
+
+
+/*
+-------------------------------------------------------------- 
+MAIN NAV STYLE
+-------------------------------------------------------------- 
+*/
+.main-nav {
+	float:left;
+	margin:0px;
+	width:100%;
+	height:50px;
+}
+.navbar-inverse .navbar-nav>li>a{
+ padding-left:21px;
+}
+/*
+-------------------------------------------------------------- 
+CONTENT banner STYLE
+-------------------------------------------------------------- 
+*/
+.content-div {
+	float:left;
+	width:100%;
+	min-height:365px;
+	background:#eee;
+}
+
+.banner {
+	float:left;
+	width:100%;
+}
+/*
+-------------------------------------------------------------- 
+product STYLE
+-------------------------------------------------------------- 
+*/
+
+.product-pages{
+  float:left;
+  width:100%;
+  margin-bottom:10px;
+  margin-top:40px;
+}
+.product-area{
+  float:left;
+  width:100% !important;
+}
+.product-product{
+ float:left;
+ width:25%;
+ border-right:1px solid #CCC;
+ bottom:0px;
+ border:1px solid #eee;
+ overflow:hidden;
+ height:470px;
+ cursor:pointer;
+ }
+.product-product img{
+  width:100%;
+  height:300px;
+}
+.product-product img:hover{
+  transform:scale(1.22);
+  transition:2s;
+}
+.product-product h1{
+  margin:0px;
+}
+.product-product h1 a{
+  float:left;
+  margin:0px;
+  width:100%;
+  font-size:25px;
+  min-height:50px;
+  padding:10px !important;
+  color: #036;
+  text-decoration:none;
+}
+.product-product h1 a:hover{
+  color:#f90;
+}
+.product-product:hover{
+  border:1px solid;
+}
+.product-product h3 a{
+  padding:10px;
+  font-size:20px;
+  color: #f60;
+  text-decoration:none;	
+}
+.product-product:hover h4 a{
+	display:block;
+}
+
+/*
+-------------------------------------------------------------- 
+inner pages STYLE
+-------------------------------------------------------------- 
+*/
+
+.inner-pages{
+  float:left;
+  width:100%;
+  margin-bottom:40px;
+}
+.inner-area{
+  float:left;
+  width:100% !important;
+}
+.inner-product{
+ float:left;
+ width:25%;
+ border-right:1px solid #CCC;
+ position:relative;
+ bottom:0px;
+ border:1px solid #eee;
+ overflow:hidden;
+ }
+.inner-product img{
+  width:100%;
+  height:300px;
+}
+.inner-product img:hover{
+  transform:scale(1.22);
+  transition:2s;
+}
+.inner-product h1 a{
+  text-align:center;
+  margin:0px;
+  position:absolute;
+  width:100%;
+  bottom:0px;
+  background:rgba(238, 238, 238, 0.48);
+  font-size:27px;
+  min-height:50px;
+  padding:10px !important;
+  font-style:italic;
+  text-decoration:none;
+  color:rgba(0, 0, 0, 0.62);
+}
+.inner-product h1 a:hover{
+  background:rgba(102, 102, 102, 0.79);
+  color:#FFF;
+}
+.heading-area{
+  float:left;
+  width:100%;
+  background-color:#006f94;
+  margin-bottom:40px;
+}
+.heading-area h1{
+   color:#FFF;
+   margin:0px;
+   padding:20px;
+   text-align:center;
+}
+
+
+/*
+-------------------------------------------------------------- 
+logiin_left SPECIFICATION STYLES
+-------------------------------------------------------------- 
+*/ 
+.main_bg{
+  margin-bottom:50px;
+}
+.login_left{
+	float: left;
+	width: 100%;
+	margin-left: 3.3333%;
+	background: #999 !important;
+	padding: 2%;
+	min-height: 350px;
+}
+.login_left:first-child{
+	margin-left: 0;
+}
+.login_left h3{
+	font-size: 1.2em;
+	color: #a54e70 !important;
+	text-transform: uppercase;
+	text-shadow: 0 1px 0 white;
+	border-bottom: 1px solid #E9E9E9;
+	padding-bottom: 10px;
+}
+.login_left p{
+	font-size: 0.8725em;
+	line-height:1.5em;
+	color: #555555;
+	margin: 4% 0;
+}
+.btn form input[type="button"],.registration_form input[type="submit"]{
+	font-family: 'Maven Pro', sans-serif;
+	cursor:pointer;
+	background: #242424;
+	border: 1px solid #242424;
+	padding: 10px 20px;
+	outline:none;
+	color: #ffffff;
+	font-size: 1em;
+	text-transform: capitalize;
+	border-radius: 2px;
+	}
+.btn form input[type="button"]:hover,.registration_form input[type="submit"]:hover{
+    background: #a54e70;;
+	border: 1px solid #57c5a0;
+}
+
+/********** Login & registration *************/
+.log_reg{
+	border-right: 1px solid rgb(60, 60, 60);
+	padding: 12px 16px;
+	float:right;
+}
+.log_reg ul li{
+	display: inline-block;
+}
+.log_reg li a{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.8125em;
+	display: block;
+	padding: 5px 8px;
+	color: #777777;
+	text-transform: uppercase;
+	-webkit-text-stroke: 0.5px;
+}
+.log_reg  span.log{
+	font-size: 0.8125em;
+	color: #777777;
+	text-transform: lowercase;
+	-webkit-text-stroke: 0.5px;
+}
+h2.style{
+	font-size: 1.8em;
+	color: #5e5e5e;
+	text-transform: capitalize;
+}
+h4.style{
+	font-size: 1.5em;
+	color: #5e5e5e;
+	text-transform: capitalize;
+	border: 1px solid #3D3D3D;
+	padding: 1% 2%;
+}
+.login_left{
+	float: left;
+	width: 100%;
+	margin-left: 3.3333%;
+	background: #ffffff;
+	padding: 2%;
+	min-height: 350px;
+}
+.login_left:first-child{
+	margin-left: 0;
+}
+.login_left h3{
+	font-size: 1.2em;
+	color: #57C5A0;
+	text-transform: uppercase;
+	text-shadow: 0 1px 0 white;
+	border-bottom: 1px solid #E9E9E9;
+	padding-bottom: 10px;
+}
+.login_left p{
+	font-size: 0.8725em;
+	line-height:1.5em;
+	color: #555555;
+	margin: 4% 0;
+}
+.btn form input[type="button"],.registration_form input[type="submit"]{
+	font-family: 'Maven Pro', sans-serif;
+	cursor:pointer;
+	background: #242424;
+	border: 1px solid #242424;
+	padding: 10px 20px;
+	outline:none;
+	color: #ffffff;
+	font-size: 1em;
+	text-transform: capitalize;
+	transition: all 0.3s ease-in-out;
+	border-radius: 2px;
+	
+}
+.btn form input[type="button"]:hover,.registration_form input[type="submit"]:hover{
+	
+	border: 1px solid #57c5a0;
+}
+/* start registration */
+.registration{
+	margin: 4% 0;
+}
+.reg_fb {
+	margin:3% 0;
+	display: block;
+	background: #4263A7;
+	transition: all 0.5s ease-out;
+	transition: all 0.3s ease-in-out;
+}
+.reg_fb img {
+	background:#3B5998;
+	padding: 10px;
+	float: left;
+}
+.reg_fb i {
+	color: #ffffff;
+	padding: 12px 16px;
+	display: inline-block;
+	font-size: 1.3em;
+	text-transform: capitalize;
+}
+.reg_fb:hover {
+	background:#3B5998;
+}
+.registration_left{
+	float:left;
+	width:100%;
+}
+.registration_left:first-child{
+	margin-left: 0;
+}
+.registration span{
+	color: #777777;
+}
+.registration_form{
+	display: block;
+}
+.registration_form div{
+	padding:10px 0;
+}
+.registration_form input[type="text"],.registration_form input[type="email"],.registration_form input[type="tel"],.registration_form input[type="password"]{
+	padding: 10px;
+	display: block;
+	width: 430px;
+	outline: none;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.8925em;
+	color: #777777;
+	-webkit-appearance: none;
+	text-transform: capitalize;
+	background: #FFFFFF;
+	border: 1px solid rgb(231, 231, 231);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.registration_form input[type="text"]:focus,.registration_form input[type="email"]:focus,.registration_form input[type="tel"]:focus,.registration_form input[type="password"]:focus{
+	box-shadow: inset -1px -1px 1px rgba(228, 228, 228, 0.67);
+	-webkit-box-shadow: inset -1px -1px 1px rgba(228, 228, 228, 0.67);
+	-moz-box-shadow: inset -1px -1px 1px rgba(228, 228, 228, 0.67);
+	-o-box-shadow: inset -1px -1px 1px rgba(228, 228, 228, 0.67);
+}
+.sky_form ul li{
+	display:inline-block;
+	line-height: 1.5em;
+}
+.sky_form ul li input[type="radio"]{
+	vertical-align: middle;
+}
+.sky_form label i{
+	color: #777777;
+	font-size: 0.8725em;
+	margin-right: 12px;
+	vertical-align: text-top;
+}
+.sky_form  input[type="checkbox"]{
+	vertical-align: text-top;
+}
+.terms{
+	color: #777777;
+	text-decoration:underline;
+}
+.terms:hover{
+	text-decoration:none;
+}
+.forget a{
+	text-transform: capitalize;
+	color: #999999;
+	text-decoration: underline;
+	font-size: 0.8725em;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.forget a:hover{
+	text-decoration: none;
+}
+
+/*
+-------------------------------------------------------------- 
+FOOTER STYLE
+-------------------------------------------------------------- 
+*/
+footer {
+	float:left;
+	background:#5b5c5e;
+	width:100%;
+	min-height:260px;
+	color:#fff;
+	padding-top:60px;
+}
+.f-logo {
+	margin-bottom:54px;
+}
+.footer-nav {
+	float:right;
+	margin-top:18px;
+}
+footer ul {
+	list-style:none;
+}
+footer ul li {
+	display:inline-block;
+	padding:0px;
+	margin-left:40px;
+}
+footer ul li a {
+  	font-family: 'OpenSans-Bold';
+	color:#fff;
+	font-size:15px;
+}
+footer ul li a:hover {
+	text-decoration:none;
+	color:#ff8400;
+}
+.address-div ul {
+	list-style:none;
+}
+.address-div ul li {
+	float:left;
+	padding-left:40px;
+	margin:0 75px 0 0;
+}
+footer .address-div ul li.location {
+	background: url(../images/email-icon.gif) no-repeat 0px 0px;
+}
+footer .address-div ul li.phone {
+	background: url(../images/phone-icon.gif) no-repeat 0px 0px;
+	min-height: 30px;
+}
+footer .address-div ul li.email {
+	background: url(../images/email-icon.gif) no-repeat 0px 5px;
+}
+footer .address-div ul li.email a {
+  	font-family: 'OpenSans';
+	font-size: 16px;
+}
+.social-div {
+	float:right;
+	margin-top:10px;
+}
+.social-div a {
+	margin-left:16px;
+}
+.normal-row {
+	float:left;
+	width:100%;
+}
+
